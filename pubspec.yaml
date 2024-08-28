@@ -1,0 +1,27 @@
+name: cupertino_http_objc_issue
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+dependencies:
+  flutter:
+    sdk: flutter
+
+  objective_c: 
+    git:
+      url: https://github.com/dart-lang/native/
+      path: pkgs/objective_c
+      ref: 87e8f924f06458ccba11dda7edc26d607c663d60
+  cupertino_http: ^1.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
